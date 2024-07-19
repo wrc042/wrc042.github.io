@@ -205,6 +205,7 @@ pre {
     max-width: 940px;
     margin: 81px auto 0;
     padding-bottom: 34px;
+    text-align: justify;
     box-sizing: border-box
 }
 
@@ -213,9 +214,12 @@ pre {
 }
 
 .main-userinfo .info img {
-    width: 155px;
-    height: 176px;
-    margin-right: 28px
+    width: 200px;
+    height: 200px;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    border-radius: 5px;
+    margin-right: 40px
 }
 
 .main-userinfo .info .info-right {
@@ -360,8 +364,9 @@ pre {
 }
 
 .main-selected .selected-item img {
-    width: 216px;
-    height: 145px;
+    width: 256px;
+    height: 144px;
+    border-radius: 10px;
     margin-right: 24px
 }
 
